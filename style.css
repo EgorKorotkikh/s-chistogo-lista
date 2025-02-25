@@ -1,9 +1,8 @@
 body{
   font-family: "Inter", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-
 }
 
 .container{
@@ -11,6 +10,8 @@ body{
   width: 100%;
   max-width: 360px;
   margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .content-section_theme_dark{
@@ -18,7 +19,8 @@ body{
 }
 
 .header{
-  padding: 24px 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   min-height: 132px;
   display: flex;
   justify-content: space-between;
@@ -38,9 +40,14 @@ body{
   margin-bottom: 12px;
 }
 
+.header__menu-link{
+  border-bottom: 1px solid;
+}
+
 .header__menu-item_active .header__menu-link{
   text-decoration: none;
   cursor: default;
+  border: none;
 }
 
 .header__menu-item:last-child{
@@ -57,8 +64,8 @@ body{
   background-repeat: no-repeat;
   background-size: 95% auto;
   background-position: right center;
-  padding: 7px 24px 30px 20px;
-
+  padding-top: 7px;
+  padding-bottom: 30px;
 }
 
 .cover__title{
@@ -85,11 +92,12 @@ span{
 
 .intro{
   font-family: "Inter", serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   line-height: 1;
   color: #fff;
-  padding: 8px 20px 38px 20px;
+  padding-top: 8px;
+  padding-bottom: 38px;
 }
 
 .intro__heading{
@@ -102,7 +110,7 @@ span{
 
 .intro__title{
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .intro__date{
@@ -111,7 +119,6 @@ span{
 
 .intro__main-text{
   font-family: "Inter", serif;
-  font-weight: 400;
   font-style: normal;
   color: #fff;
   line-height: 22px;
@@ -119,4 +126,50 @@ span{
 
 .intro__main-text p:first-child{
   padding-bottom: 19px;
+}
+
+.reasons{
+  background-color: #FEE42A;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.content-section__subtitle{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 115%;
+  margin-bottom: 32px;
+}
+
+.content-section__introduction{
+  font-family: "Inter", serif;
+  font-style: normal;
+  color: #fff;
+  line-height: 27px;
+  font-weight: 400;
+  color: #131313;
+  font-size: 20px;
+}
+
+.content-section__list{
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-left: 18px;
+  line-height: 1.35;
+}
+
+.content-section__list-item{
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.content-section__list-accent{
+  font-weight: bold;
+  display: inline-block;
 }
