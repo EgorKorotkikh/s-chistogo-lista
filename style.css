@@ -1,8 +1,8 @@
 body{
   font-family: "Inter", serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+  font-optical-sizing: auto;
 }
 
 .container{
@@ -10,8 +10,8 @@ body{
   width: 100%;
   max-width: 360px;
   margin: auto;
-  padding-left: 20px;
   padding-right: 20px;
+  padding-left: 20px;
 }
 
 .content-section_theme_dark{
@@ -19,11 +19,11 @@ body{
 }
 
 .header{
-  padding-top: 24px;
-  padding-bottom: 24px;
-  min-height: 132px;
   display: flex;
   justify-content: space-between;
+  min-height: 132px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header__logo{
@@ -45,9 +45,9 @@ body{
 }
 
 .header__menu-item_active .header__menu-link{
+  border: none;
   text-decoration: none;
   cursor: default;
-  border: none;
 }
 
 .header__menu-item:last-child{
@@ -60,22 +60,22 @@ body{
 }
 
 .main__title{
-  background-image: url(/images/cover.svg);
-  background-repeat: no-repeat;
-  background-size: 95% auto;
-  background-position: right center;
   padding-top: 7px;
   padding-bottom: 30px;
+  background-image: url(/images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 95% auto;
 }
 
 .cover__title{
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 72px;
   color: #fff;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  font-size: 72px;
+  font-style: normal;
   line-height: 1;
+  font-optical-sizing: auto;
 }
 
 span{
@@ -91,26 +91,26 @@ span{
 }
 
 .intro{
+  padding-top: 8px;
+  padding-bottom: 38px;
+  color: #fff;
   font-family: "Inter", serif;
   font-weight: 300;
   font-style: normal;
   line-height: 1;
-  color: #fff;
-  padding-top: 8px;
-  padding-bottom: 38px;
 }
 
 .intro__heading{
-  color: #cccccc;
   display: flex;
   justify-content: space-between;
   margin-bottom: 24px;
+  color: #cccccc;
   line-height: 17px;
 }
 
 .intro__title{
-  font-size: 16px;
   font-weight: 300;
+  font-size: 16px;
 }
 
 .intro__date{
@@ -118,47 +118,46 @@ span{
 }
 
 .intro__main-text{
+  color: #fff;
   font-family: "Inter", serif;
   font-style: normal;
-  color: #fff;
-  line-height: 22px;
-}
-
-.intro__main-text p:first-child{
-  padding-bottom: 19px;
+  line-height: 1.35;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 .reasons{
-  background-color: #FEE42A;
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #FEE42A;
 }
 
 .content-section__subtitle{
-  font-family: "EB Garamond", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 28px;
-  line-height: 115%;
   margin-bottom: 32px;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 115%;
+  font-optical-sizing: auto;
 }
 
 .content-section__introduction{
-  font-family: "Inter", serif;
-  font-style: normal;
   color: #fff;
-  line-height: 27px;
-  font-weight: 400;
   color: #131313;
+  font-family: "Inter", serif;
+  font-weight: 400;
   font-size: 20px;
+  font-style: normal;
+  line-height: 27px;
 }
 
 .content-section__list{
-  margin-top: 32px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  margin-top: 32px;
   padding-left: 18px;
   line-height: 1.35;
 }
@@ -170,6 +169,22 @@ span{
 }
 
 .content-section__list-accent{
-  font-weight: bold;
   display: inline-block;
+  font-weight: bold;
+}
+
+.how-to{
+  padding-top: 40px;
+}
+
+.how-to .content-section__subtitle{
+  color: #fff;
+}
+
+.how-to .content-section__introduction{
+  color: #fff;
+  font-family: "Inter", serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.35;
 }
